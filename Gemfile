@@ -39,9 +39,9 @@ gem 'rack-attack'
 gem 'down', '~> 5.0'
 
 ##-- for active storage --##
-#gem 'aws-sdk-s3', require: false
+gem 'aws-sdk-s3', require: false
 gem 'azure-storage-blob', require: false
-#gem 'google-cloud-storage', require: false
+gem 'google-cloud-storage', require: false
 gem 'image_processing', '~> 1.12.2'
 
 ##-- gems for database --#
@@ -87,7 +87,7 @@ gem 'koala'
 # slack client
 gem 'slack-ruby-client'
 # for dialogflow integrations
-# gem 'google-cloud-dialogflow'
+gem 'google-cloud-dialogflow'
 
 ##--- gems for debugging and error reporting ---##
 # static analysis
